@@ -1,0 +1,10 @@
+# Django stuff:
+*.log
+*.pyc
+
+
+settings.json
+Pipfile
+Pipfile.lock
+/wordcounter
+  *settings.py

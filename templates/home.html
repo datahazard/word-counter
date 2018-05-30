@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Counter</title>
+</head>
+
+<body>
+  <h1>Counter template works!</h1>
+
+  <a href="{% url 'about' %}">About</a>
+
+
+  <form action="{% url 'count' %}">
+    <textarea cols="40" rows="5" name="fulltext"> </textarea>
+    <br>
+    <input type="submit" value="Count!" />
+  </form>
+
+
+</body>
+
+</html>
