@@ -6,5 +6,4 @@
 settings.json
 Pipfile
 Pipfile.lock
-/wordcounter
-  *settings.py
+*settings.py
